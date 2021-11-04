@@ -1,4 +1,4 @@
-//
+  //
 //  ContentView.swift
 //  WatchApp WatchKit Extension
 //
@@ -9,8 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+      HeartRate()
     }
 }
 

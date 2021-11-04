@@ -17,6 +17,11 @@
 		72FA39082732EFF90013B093 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39072732EFF90013B093 /* ComplicationController.swift */; };
 		72FA390A2732EFFA0013B093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72FA39092732EFFA0013B093 /* Assets.xcassets */; };
 		72FA390D2732EFFA0013B093 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72FA390C2732EFFA0013B093 /* Preview Assets.xcassets */; };
+		72FA391F27339FCF0013B093 /* CallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA391E27339FCF0013B093 /* CallView.swift */; };
+		72FA392127339FFA0013B093 /* HeartRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA392027339FFA0013B093 /* HeartRate.swift */; };
+		72FA39232733A3D00013B093 /* TopicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39222733A3D00013B093 /* TopicsView.swift */; };
+		72FA39252733A82E0013B093 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39242733A82E0013B093 /* FeedView.swift */; };
+		72FA39272733AC180013B093 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39262733AC180013B093 /* ExerciseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +80,11 @@
 		72FA390C2732EFFA0013B093 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		72FA390E2732EFFA0013B093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72FA390F2732EFFA0013B093 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		72FA391E27339FCF0013B093 /* CallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallView.swift; sourceTree = "<group>"; };
+		72FA392027339FFA0013B093 /* HeartRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRate.swift; sourceTree = "<group>"; };
+		72FA39222733A3D00013B093 /* TopicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsView.swift; sourceTree = "<group>"; };
+		72FA39242733A82E0013B093 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		72FA39262733AC180013B093 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +128,7 @@
 		72FA38FE2732EFF90013B093 /* WatchApp WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				72FA391D27339FAC0013B093 /* Views */,
 				72FA38FF2732EFF90013B093 /* WatchAppApp.swift */,
 				72FA39012732EFF90013B093 /* ContentView.swift */,
 				72FA39032732EFF90013B093 /* NotificationController.swift */,
@@ -137,6 +148,18 @@
 				72FA390C2732EFFA0013B093 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		72FA391D27339FAC0013B093 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72FA391E27339FCF0013B093 /* CallView.swift */,
+				72FA392027339FFA0013B093 /* HeartRate.swift */,
+				72FA39222733A3D00013B093 /* TopicsView.swift */,
+				72FA39242733A82E0013B093 /* FeedView.swift */,
+				72FA39262733AC180013B093 /* ExerciseView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +289,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72FA39232733A3D00013B093 /* TopicsView.swift in Sources */,
+				72FA39252733A82E0013B093 /* FeedView.swift in Sources */,
+				72FA391F27339FCF0013B093 /* CallView.swift in Sources */,
 				72FA39042732EFF90013B093 /* NotificationController.swift in Sources */,
+				72FA39272733AC180013B093 /* ExerciseView.swift in Sources */,
 				72FA39022732EFF90013B093 /* ContentView.swift in Sources */,
 				72FA39082732EFF90013B093 /* ComplicationController.swift in Sources */,
+				72FA392127339FFA0013B093 /* HeartRate.swift in Sources */,
 				72FA39002732EFF90013B093 /* WatchAppApp.swift in Sources */,
 				72FA39062732EFF90013B093 /* NotificationView.swift in Sources */,
 			);
